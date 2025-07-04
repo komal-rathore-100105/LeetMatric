@@ -107,11 +107,12 @@ document.addEventListener("DOMContentLoaded", function () {
     searchButton.addEventListener('click', function () {
         const username = usernameInput.value;
         
-        if (window.innerWidth <= 723) {
+        // if (window.innerWidth <= 723) {
             // Container.style.height = "100%";
             // Body.style.alignItems = "flex-start";
-            Body.style.height = "100%";
-        }
+            // Body.style.height = "100%";
+        // }
+        Body.style.height = "100%";
         Body.style.alignItems = "flex-start";
         console.log("Logging username:", username);
         if (validateUsername(username)) {
