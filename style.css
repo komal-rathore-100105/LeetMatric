@@ -136,7 +136,7 @@ h1{
        width: 95%;
    }
    body {
-       height: 100vh; /* Adjust height for mobile */
+       height: 70vh; /* Adjust height for mobile */
        display: flex;
        flex-direction: column; 
        justify-content: center;
