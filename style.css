@@ -24,6 +24,7 @@ body{
     /* justify-content: center; */
     max-width: 600px;
     border-radius: 5px;
+    box-shadow: 0px 6px 10px rgba(18, 25, 24, 0.544);
 }
 h1{
     text-align: center;
@@ -48,12 +49,22 @@ h1{
     width: 70%;
     padding: 0.5rem;
     border-radius: 5px;
+    border-color:none;
+    border-width: 0px;
+    background-color: #cedaea; 
 }
 #search-btn{
     padding: 0.5rem;
-    width: 60px;
+    width: 80px;
     border-radius: 5px;
-    
+    border-color: none;
+    border-width: 0px;
+    color: white;
+    background-color: #090b0b;
+}
+#search-btn:hover{
+    background-color: #688fc5;
+    cursor: pointer;
 }
 .stats-container {
     display: none;
@@ -72,6 +83,7 @@ h1{
     border: 2px solid #41b9c7;
     background: conic-gradient(#41b9c7 var(--progress-degree, 40%), #688fc5 0%);
     flex-direction: column;
+    box-shadow: 0px 6px 10px rgba(24, 243, 228, 0.544);
     
 }
 .circle span{
@@ -108,7 +120,8 @@ h1{
     padding: 0.5rem;
     border-radius: 5px;
     width: 40%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 5px rgba(7, 11, 11, 0.1); */
+    box-shadow: 0px 6px 10px rgba(18, 25, 24, 0.544);
     margin: 0.5rem;
 }
 
