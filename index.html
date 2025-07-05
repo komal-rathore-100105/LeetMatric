@@ -5,17 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeetMetric</title>
     <link rel="stylesheet" href="style.css">
+    
+
 </head>  
 <body>
     <div class="container">
         <!-- heading 
          user 
          stats -->
-         <h1>Leet Metric </h1>
+         <!-- <h1>Leet Metric </h1> -->
+        <h1>
+            <span style="color: #100d0d;">Leet</span><span style="color: #41b9c7;">Metric</span>
+        </h1>
+          
         <div class="user-container">
-            <p>Enter your username below: </p>
-            <div class="user-input-container">
-                <input type="text" placeholder="enter your username here" id="user-input">
+
+            
+            <!-- Welcome Message -->
+            <p class="welcome-text delayed-fade-in">
+                🚀 Ready to see how far you've come?<br><br>
+                <strong>Enter your LeetCode username and visualize your coding progress.</strong>
+            </p>
+  
+            <!-- <p>Enter your username below: </p> -->
+            <div class="user-input-container delayed-fade-in">
+                <input type="text" placeholder="enter your leetcode username here" id="user-input">
                 <button id="search-btn">Search</button>
             </div>
         </div> 

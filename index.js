@@ -11,7 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const statsCardContainer = document.querySelector(".stats-card");
     const Container = document.querySelector(".container");
     const Body = document.querySelector("body");
-    
+
+
+    // setTimeout(() => {
+        // document.getElementById('welcome-text').classList.add('delayed-fade-in');
+    // }, 1500);
+    // 
     // Container.style.height = "100%";
     function validateUsername(username) {
         if (username.trim() === "") {
