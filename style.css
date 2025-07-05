@@ -28,7 +28,7 @@ body{
 }
 h1{
     text-align: center;
-    color: #fff;
+    color: #0e0d0d;
     text-wrap: wrap;
     font-size: 2rem;
 }
@@ -47,6 +47,7 @@ h1{
 }
 #user-input{
     width: 70%;
+    height: 2.5rem;
     padding: 0.5rem;
     border-radius: 5px;
     border-color:none;
