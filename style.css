@@ -173,7 +173,7 @@ body{
     opacity: 0;
     transform: translateY(20px);
     animation: fadeSlideIn 0.8s ease-out forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.5s;
 }
 
 @keyframes fadeSlideIn {
