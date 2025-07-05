@@ -1,6 +1,5 @@
 # 🚀 LeetMetric – Your Personal LeetCode Stats Tracker
 
-![LeetMetric Banner](https://img.shields.io/badge/HTML-CSS-JavaScript-blue?style=for-the-badge)
 
 LeetMetric is a simple yet powerful web application that fetches your real-time **LeetCode stats** and displays them visually using interactive UI elements. Just enter your username, and track your problem-solving progress across Easy, Medium, and Hard questions — all in one place!
 
